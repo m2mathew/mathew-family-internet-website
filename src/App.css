@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 .App-logo {
@@ -12,6 +15,8 @@
   height: 150px;
   padding: 20px;
   color: white;
+
+  align-items: center;
 }
 
 .App-intro {
