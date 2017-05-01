@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DeniseAndMark from './denise-and-mark';
 import Michael from './michael';
 import Melissa from './melissa';
 import Alexis from './alexis';
@@ -19,6 +20,7 @@ class App extends Component {
         <p className="App-intro">
           The origin of our family name comes from a dislike of mathematics. Math? ewwwww!!!
         </p>
+        <DeniseAndMark />
         <Michael />
         <Melissa />
         <Isaac />
